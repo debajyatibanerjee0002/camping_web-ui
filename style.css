@@ -2,24 +2,19 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    /* background-image: url('img/one.jpg'); */
-    /* background-repeat: no-repeat; */
-    /* height: 711px; */
 }
 body{
     margin: 0px;
     padding: 0px;
     background-color: black;
-    background-image: url('img/one.jpg');
+    background-image: url('img/three.png');
     background-repeat: repeat;
     background-size: 100%;
-    z-index: -1;
 }
 header{
     margin: 3% 4%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 header > img{
@@ -32,9 +27,7 @@ nav .navbar{
 }
 nav .navbar li{
     display: inline-block;
-    /* width: 97px; */
     padding: 0px 12px;
-    /* justify-content: space-between; */
 }
 nav .navbar li a, div .navbar a{
     padding: 4px;
@@ -74,10 +67,20 @@ div .navbar a{
     margin: 5px;
 }
 .btn{
+    height: 126px;
+    box-sizing: border-box;
+    /* height: 10%; */
     display: flex;
-    /* width: 500px; */
     justify-content: center;
+    padding-top: 10px;
     margin: 10px;
+    flex-wrap: wrap;
+}
+#div1{
+    display: inline;
+}
+#div2{
+    display: inline;
 }
 
 
